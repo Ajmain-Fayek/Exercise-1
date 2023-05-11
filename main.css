@@ -1,0 +1,191 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+
+/* body styling start from here. */
+body {
+    background: linear-gradient(45deg, rgb(9, 2, 20), rgb(18, 1, 22));
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+/* main styling starts from here. */
+main {
+    display: block;
+    background: linear-gradient(45deg, rgba(148, 176, 252, 0.7), rgba(184, 148, 252, 0.7));
+    box-shadow: 0 0 5px 5px rgba(150, 148, 252, 0.3);
+    width: 80%;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 0 30px;
+    border-radius: 3px;
+}
+
+/* header styling start from here. */
+.grid-container {
+    /* background-color: greenyellow; */
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.title {
+    grid-column: 2;
+    text-align: left;
+}
+
+.logo {
+    /* background-color: yellow; */
+    grid-column: 1;
+    align-items: left;
+}
+
+.logo-png {
+    width: 100px;
+}
+
+.text {
+    font-family: 'Tourney', Arial, Helvetica, sans-serif;
+    color: rgb(32, 192, 0);
+    text-shadow: 1px 1px 4px rgb(31, 0, 0);
+    font-size: 2.5em;
+}
+ /* header styling ends here. */
+
+
+
+/* section-1 styling starts from here. */
+
+.item-1 {
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 15px;
+}
+.photo-1 {
+    width: 250px;
+    grid-column: 1;
+}
+
+.text-1 {
+    grid-column: 2;
+
+}
+
+/* section-1 styling ends here. */
+
+
+/* section-2 styling starts here. */
+.photo-2 {
+    width: 250px;
+    grid-column: 2;
+}
+
+.text-2 {
+    grid-column: 1;
+
+}
+
+.item-2 {
+    display: grid; 
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 15px;
+}
+/* section-2 styling ends here. */
+
+/* form styling starts here. */
+.form {
+padding: 20px;
+}
+
+.email {
+    width: 350px;
+    height: 50px;
+    font-size: 1.2em;
+    border: 1px solid rgb(31, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(213, 181, 255);
+    color: rgb(31, 0, 0);
+}
+
+.submit {
+    width: 100px;
+    height: 50px;
+    font-size: 1.2em;
+    border: 1px solid rgb(31, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(213, 181, 255);
+    color: rgb(31, 0, 0);
+    cursor: pointer;
+}
+
+fieldset {
+    text-align: center;
+}
+
+legend {
+    color: rgb(227, 255, 251);
+}
+/* from styling ends here. */
+
+/* footer styling starts here. */
+.container-1 {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 3fr;
+    column-gap: 10px;
+    padding: 20px;
+}
+
+.contact {
+    grid-column: 1;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.3em;
+}
+
+.links {
+    grid-column: 2;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: .8em;
+    line-height: 23px;
+}
+
+.footer-text {
+    grid-column: 3;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: .8em;
+    line-height: 25px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+a:hover, a:visited {
+    color: rgb(145, 0, 0);
+    cursor: pointer;
+}
+a:active {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/* hr styling */
+hr{
+    height: 4px;
+    box-shadow: 0 0 4px 0px rgb(227, 255, 251);
+    border: 0;
+    background-color: rgb(91, 6, 110);
+    border-color: rgb(18, 1, 22);
+}
+
