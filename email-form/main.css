@@ -1,0 +1,19 @@
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  input:hover {
+    background-color: lightgray;
+  }
+  
+  input:focus {
+    border-color: blue;
+  }
+  
+  input:active {
+    background-color: red;
+  }
+  
